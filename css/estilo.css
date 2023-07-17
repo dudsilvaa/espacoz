@@ -1,0 +1,64 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav{
+    background-color:#DAE6A4;
+}
+nav ul{
+    max-width: 1225px;
+    list-style: none;
+    padding:0;
+  
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color:#ffffff;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .5s;
+}
+nav ul li a:hover{
+    background-color:#dee9ab;
+}
+
+nav ul li:last-child a {
+    float: right;
+    background-color:#DAE6A4;
+}
+img {
+    margin: auto;
+    display: block;
+    float:left;
+    padding: 0px 20px;
+    top:90%;
+    left:40%;
+}
+.banner{
+    background: url(file:///C:/Users/Mikaele/Documents/Visual%20Studio%20Code/Maria%20Eduarda%20Silva/projeto/img/GettyImages-1382372854.webp);
+    background-size: cover;
+    background-position: center;
+    top: 80px;
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

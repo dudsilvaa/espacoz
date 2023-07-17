@@ -1,0 +1,118 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.banner{
+        background-image: linear-gradient(hsla(26, 30%, 70%, 0.6),hsla(103, 55%, 85%, 0.6)), url(file:///C:/Users/Mikaele/Documents/Visual%20Studio%20Code/Maria%20Eduarda%20Silva/projeto/img/GettyImages-1382372854.webp);
+        background-size: cover;
+        background-position: center;
+        top: 0px;
+        height: 100vh;
+        width: 100%;
+        position:fixed;
+}
+
+nav{
+    margin: auto;
+    display: block;
+    padding: 0px 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 4px 0px;
+    height: 50vh;
+    margin: 90px 15px;
+    transition: all .50s ease;
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:#dce7ab;
+    transition: .3s;
+}
+
+main{
+    margin: 0px 0px;
+    display: flex;
+    padding: 12px 30px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.part{
+    float:right;
+    display: flex;
+    padding: 0px 0px;
+}
+
+.part a{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 4px 0px;
+    margin-right: 45px;
+    margin-left: 76px;
+    transition: all .50s ease;
+}
+
+.part p{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 4px 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    transition: all .50s ease;
+}
+
+.part ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 90px 0px;
+}
+
+.part ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.part ul li a:hover{
+        color:#dce7ab;
+        transition: .3s;
+}
+
+img {
+    margin: auto;
+    display: block;
+    float:left;
+    padding: 0px 10px;
+    top:10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
